@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="Screenshot 2025-03-04 164201.png" >
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/e11fcca011.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div style=" height:100vh; " class="container">
+            <nav>
+                <img src="Screenshot 2025-03-04 164201.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+           <div style="display: flex; flex-wrap: nowrap;  justify-content:space-between; margin-top:100px ;" >
+            <div style="margin-bottom: 3%; " class="header-text" id="home">
+                <p>Data Scientist</p>
+                <h1>Hi, I'm <span>Harish<br>Maske</span> From India</h1>
+
+            </div>
+            <!-- <div> 
+                <img style="height: 500px; padding-top: 30px; " src="3d-cartoon-fitness-man.png" alt="">
+
+            </div> -->
+           </div>
+        </div>
+    </div>
+    <!-- ===========================about================================ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="WhatsApp Image 2025-03-04 at 19.54.14_2d5d0ff1-removebg-preview.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestiae, et non molestias quod sed necessitatibus sapiente aspernatur vitae quisquam iste, fuga libero perferendis corrupti quasi pariatur ipsam totam dolores quas, itaque explicabo consequuntur adipisci. Quia a aperiam ullam minus cumque atque suscipit quas quod fugiat, nulla, perferendis eaque numquam.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Analyst</span><br>Power BI expertise</li>
+                            <li><span>Web Develoment</span><br>web app development</li>
+                            <li><span>Coder</span><br>Created Games, solve many question</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-current</span><br>practising</li>
+                            <li><span>2022-2023</span><br>learning</li>
+                            <li><span>2020-2022</span><br>develop skills</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2027</span><br>Data science training at MANIT</li>
+                            <li><span>2022</span><br>ssc examination qualify</li>
+                            <li><span>2020</span><br>hsc examination qualify</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =========================services================================ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At iure in dolorem placeat, iusto rerum nobis error voluptatibus reprehenderit maxime.</p>
+                    <a href="#" class="services-btn">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-filter"></i>
+                    <h2>Data analysis</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum odit ab eaque cum officia quisquam porro distinctio ex expedita dignissimos.</p>
+                    <a href="#" class="services-btn">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2>Coding</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid deserunt eius inventore beatae cupiditate aspernatur, enim nostrum veniam laudantium voluptatem.</p>
+                    <a href="#" class="services-btn">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =========================portfolio================================ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="port2img.jpg" >
+                    <div class="layer">
+                        <h3>My Portfolio</h3>
+                        <p>this portfolio is created using HTML,CSS Nd Javascript.</p>
+                        <a href="portfolio.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="calculatorimg.avif">
+                    <div class="layer">
+                        <h3>Simple Calculator</h3>
+                        <p>this will help you to solve your math problems.</p>
+                        <a href="calculator.html "><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pddimg.jpg">
+                    <div class="layer">
+                        <h3>Parkinson's Disease Detection</h3>
+                        <p>it's a machine lerning based detection tool</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+     <!-- =========================contact======================== -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>harryman@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>  +91 6267400776</p>
+                    <div class="social-icons">
+
+                        <a href="https://github.com/theharishmaske"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://mails.google.com/harryman550@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/harish-maske-21503b249/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                        
+                    </div>
+                    <a href="RenderCV_EngineeringResumes_Theme.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2" >Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Have a Nice Day <i class="fa-solid fa-face-smile"></i></p>
+    </footer>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL ="https://script.google.com/macros/s/AKfycbzYTkCIvmTw6W9NCg_ptQo7HAdL3lYN45aefD-QPFThKUhFyC854acljusMDuHOzTBpOg/exec"
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
